@@ -874,6 +874,10 @@ footer{
   .dark p{
     overflow-wrap:anywhere;
     word-break:break-word;
+  } 
+  .hero h1{
+  word-break:keep-all;
+  overflow-wrap:normal;
   }
 
   .hero h1{
