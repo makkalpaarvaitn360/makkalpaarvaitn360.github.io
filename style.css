@@ -1017,3 +1017,6 @@ footer{
   font-size:12px;
 }
 }
+.no-break{
+  white-space:nowrap;
+}
