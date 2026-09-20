@@ -906,3 +906,18 @@ footer{
     text-align:center;
   }
     }
+/* HERO HEADING OVERFLOW FIX */
+
+.hero h1{
+  max-width:100%;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+
+.hero-grid{
+  min-width:0;
+}
+
+.hero-grid > div{
+  min-width:0;
+}
