@@ -905,6 +905,20 @@ footer{
     white-space:normal;
     text-align:center;
   }
+  .hero-grid{
+  grid-template-columns:1fr !important;
+  gap:24px;
+}
+
+.hero-card{
+  width:100%;
+  max-width:100%;
+}
+
+.hero-card-content{
+  width:100%;
+  max-width:100%;
+}
     }
 /* HERO HEADING OVERFLOW FIX */
 
