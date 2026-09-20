@@ -845,3 +845,64 @@ footer{
     flex-wrap:wrap;
   }
 }
+/* FINAL MOBILE TEXT FIX */
+
+@media(max-width:600px){
+
+  .hero,
+  .hero-grid,
+  .hero-card,
+  .hero-card-content,
+  .section,
+  .card,
+  .card-body,
+  .about-box,
+  .people-grid{
+    min-width:0;
+    max-width:100%;
+  }
+
+  .hero h1,
+  .hero p,
+  .hero-card h2,
+  .hero-card p,
+  .card h3,
+  .card p,
+  .about h2,
+  .about p,
+  .dark h2,
+  .dark p{
+    overflow-wrap:anywhere;
+    word-break:break-word;
+  }
+
+  .hero h1{
+    font-size:36px;
+    line-height:1.18;
+  }
+
+  .hero p{
+    font-size:16px;
+    line-height:1.7;
+  }
+
+  .hero-card h2{
+    font-size:28px;
+    line-height:1.25;
+  }
+
+  .hero-card p{
+    font-size:14px;
+    line-height:1.6;
+  }
+
+  .hero-card{
+    overflow:hidden;
+  }
+
+  .btn{
+    max-width:100%;
+    white-space:normal;
+    text-align:center;
+  }
+    }
