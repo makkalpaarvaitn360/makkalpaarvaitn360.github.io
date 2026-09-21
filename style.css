@@ -928,7 +928,7 @@ footer{
 
 .hero-grid{
   min-width:0;
-  grid-template-columns:minmax(0, 1fr) minmax(0, 0.85fr);
+  grid-template-columns:minmax(0, 1.25fr) minmax(0, 0.75fr);
 }
 
 .hero-grid > div{
