@@ -939,8 +939,8 @@ footer{
 .hero h1{
   width:100%;
   max-width:100%;
-  overflow-wrap:anywhere;
-  word-break:normal;
+  overflow-wrap:normal;
+word-break:keep-all;
 }
 /* SOCIAL ICON FOOTER */
 
