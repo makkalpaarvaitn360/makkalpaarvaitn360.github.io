@@ -1032,3 +1032,23 @@ word-break:keep-all;
     line-height:1.12;
   }
 }
+.language-switcher{
+  display:flex;
+  gap:6px;
+  margin-left:16px;
+}
+
+.language-switcher button{
+  border:1px solid rgba(255,255,255,.35);
+  background:transparent;
+  color:#fff;
+  padding:6px 10px;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.language-switcher button.active{
+  background:#f5c400;
+  color:#07131f;
+}
