@@ -1060,6 +1060,7 @@ word-break:keep-all;
     display:flex;
     align-items:center;
     gap:10px;
+    flex-wrap:nowrap;
   }
 
   .brand{
@@ -1084,7 +1085,7 @@ word-break:keep-all;
 
   .menu{
     flex:0 0 auto;
-    margin-left:2px;
+    margin-left:auto;
     padding:4px;
     line-height:1;
     position:relative;
