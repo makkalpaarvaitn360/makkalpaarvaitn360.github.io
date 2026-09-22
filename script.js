@@ -171,6 +171,8 @@ function applyEnglish() {
 
   document.querySelector(".language-switcher .active").classList.remove("active");
   document.querySelector(".language-switcher button:nth-child(2)").classList.add("active");
+  const mobileLanguage = document.querySelector(".mobile-language-switcher");
+  if (mobileLanguage) mobileLanguage.value = "en";
 }
 
 function setLanguage(language) {
