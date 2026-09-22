@@ -1057,35 +1057,50 @@ word-break:keep-all;
 @media (max-width:600px){
 
   .nav-wrap{
-    display:flex;
+    display:grid;
+    grid-template-columns:minmax(0,1fr) auto auto;
     align-items:center;
-    gap:10px;
+    gap:8px;
     flex-wrap:nowrap;
   }
 
   .brand{
-    flex:1 1 auto;
     min-width:0;
+    width:100%;
   }
 
   .brand > div:last-child{
     min-width:0;
+    overflow:hidden;
+  }
+
+  .brand strong{
+    font-size:16px;
+    white-space:nowrap;
+  }
+
+  .brand small{
+    font-size:10px;
   }
 
   .language-switcher{
+    display:flex;
     flex:0 0 auto;
     margin-left:0;
-    gap:5px;
+    gap:4px;
+    white-space:nowrap;
   }
 
   .language-switcher button{
     flex:0 0 auto;
+    padding:6px 8px;
     white-space:nowrap;
   }
 
   .menu{
+    display:block;
     flex:0 0 auto;
-    margin-left:auto;
+    margin-left:0;
     padding:4px;
     line-height:1;
     position:relative;
