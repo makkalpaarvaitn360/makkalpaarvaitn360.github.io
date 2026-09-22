@@ -1135,3 +1135,35 @@ word-break:keep-all;
   }
 
 }
+/* Mobile header final alignment */
+@media (max-width:600px){
+
+  .nav-wrap{
+    position:relative;
+    display:flex;
+    align-items:center;
+    min-height:90px;
+  }
+
+  .brand{
+    width:auto;
+    flex:1;
+  }
+
+  .mobile-language-switcher{
+    position:absolute;
+    right:55px;
+    top:50%;
+    transform:translateY(-50%);
+    margin:0;
+  }
+
+  .menu{
+    position:absolute;
+    right:10px;
+    top:50%;
+    transform:translateY(-50%);
+    margin:0;
+  }
+
+}
