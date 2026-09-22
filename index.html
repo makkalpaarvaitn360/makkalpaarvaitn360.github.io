@@ -34,6 +34,10 @@
 <button type="button" class="active" onclick="setLanguage('ta')">தமிழ்</button>
 <button type="button" onclick="setLanguage('en')">English</button></div>
   </div>
+  <select class="mobile-language-switcher" aria-label="Language" onchange="setLanguage(this.value)">
+  <option value="ta">தமிழ்</option>
+  <option value="en">English</option>
+</select>
   <button class="menu" aria-label="மெனு" onclick="document.body.classList.toggle('menu-open')">☰</button>
   </div>
 </header>
