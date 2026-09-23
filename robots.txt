@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://makkalpaarvaitn360.github.io/sitemap.xml
+Sitemap: https://makkalpaarvaitn360.in/sitemap.xml
