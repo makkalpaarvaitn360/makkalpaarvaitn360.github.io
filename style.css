@@ -356,7 +356,9 @@ nav a:hover{
   font-size:78px;
   position:relative;
 }
-
+.thumb.people{
+    font-size:48px;
+}
 .thumb span{
   position:absolute;
   left:18px;
