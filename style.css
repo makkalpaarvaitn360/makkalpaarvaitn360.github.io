@@ -393,9 +393,10 @@ nav a:hover{
 }
 
 .card h3{
-  font-size:20px;
-  line-height:1.35;
-  margin:8px 0;
+    font-size:20px;
+    line-height:1.35;
+    margin:8px 0;
+    color:var(--ink);
 }
 
 .card p{
